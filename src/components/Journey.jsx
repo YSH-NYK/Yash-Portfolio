@@ -250,7 +250,7 @@ export default function ResumeTimeline() {
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
           </div>  
-                    <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
+          <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Completed Deloitte Australia Data Analytics Job Simulation
             <Badge className="ml-2 bg-yellow-500 hover:bg-yellow-600">Achievement</Badge>
           </h3>
@@ -262,7 +262,7 @@ export default function ResumeTimeline() {
               src="delloite.png"
               alt="Spark-3 Hackathon"
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
-            />
+            /> </div> 
            <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Joined as Software Engineer Intern at Anant Infomedia Pvt. Ltd.
             <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
@@ -276,7 +276,6 @@ export default function ResumeTimeline() {
               alt="Spark-3 Hackathon"
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
-          </div> 
           </div>  
           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Completed BCGX GenAI Job Simulation
@@ -304,7 +303,7 @@ export default function ResumeTimeline() {
             <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
           </h3>
           <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
-            Currenlty undergoing training as python API developer involving hands-on experience with Python, Flask, REST APIs, Databases and more.
+            Currenlty undergoing training as python API developer involving hands-on experience with Python, Flask, REST APIs, Databases, Docker ,AWS and more.
           </p>
           <div className="mb-8">
             <img
