@@ -70,7 +70,7 @@ export default function ExpandableCardDemo() {
       { name: "Adobe Lightroom", logo: "light.png" },
       { name: "Instagram", logo: "insta.png" },
     ],
-    content: "Actively contributed to major college events like Tandav and Spectrum as the Designing Team Leader—created brochures, ID cards, event banners, sponsorship creatives, and T-shirt designs. Beyond college, I manage my Instagram page [@spykyeditz](https://www.instagram.com/spykyeditz), where I share my photography, videography, and cinematic edits to a growing audience."
+    content: "Actively contributed to major college events like Tandav and Spectrum as the Designing Team Leader—created brochures, ID cards, event banners, sponsorship creatives, and T-shirt designs. Beyond college, I manage my Instagram page [@yaashoofx](https://www.instagram.com/yaashoofx), where I share my photography, videography, and cinematic edits to a growing audience."
   }
 ];
 

@@ -25,8 +25,8 @@ const images = [
           Creativity isn’t limited to code. Through photography and cinematic
           videos and designing, I express stories in frames and Layers </p>
           <h3 className="font-bold text-white dark:text-neutral-200 mb-2 text-center">Explore my work on Instagram{" "}
-         <LinkPreview url="https://www.instagram.com/spykyeditz/" className="text-neutral-600 dark:text-neutral-400 underline">
-          @spykyeditz.
+         <LinkPreview url="https://www.instagram.com/yaashoofx/" className="text-neutral-600 dark:text-neutral-400 underline">
+          @yaashoofx.
         </LinkPreview>{" "}
         </h3>
       </div>

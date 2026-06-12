@@ -53,7 +53,7 @@ export default function PortfolioFooter() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/spykyeditz/"
+                  href="https://www.instagram.com/yaashoofx/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-blue-400 transition-colors"
