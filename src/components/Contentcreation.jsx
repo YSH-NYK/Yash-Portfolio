@@ -11,7 +11,7 @@ const images = [
   "/content/testh.webp", "/content/testi.jpg", "/content/testj.webp", "/content/testk.jpg", "/content/testl.webp",
   "/content/testm.jpg", "/content/testn.webp", "/content/testo.jpg", "/content/testp.webp", "/content/testq.jpg",
   "/content/testr.jpg", "/content/tests.jpg", "/content/testt.jpeg", "/content/testu.webp", "/content/testv.webp",
-  "/content/testw.webp", "/content/testx.webp", "/content/testy.webp", "/content/testz.webp"
+  "/content/testw.webp", "/content/testx.webp", "/content/testy.webp", "/content/testz.webp","/content/test1.jpeg","/content/test2.jpeg", "/content/test3.jpeg","/content/test4.jpeg"
 ];
 
 
