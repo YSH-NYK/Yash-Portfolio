@@ -341,6 +341,7 @@ Working as a Software Engineer since January 2026, developing Celery, Ansible, a
             />
           </div>         
         </div>
+        </div>
       )
     }
   ]
