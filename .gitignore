@@ -28,3 +28,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pgilte-debug.log*
+firebase-debug.log*
