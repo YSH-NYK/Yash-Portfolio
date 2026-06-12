@@ -334,10 +334,10 @@ Working as a Software Engineer since January 2026, developing Celery, Ansible, a
 
   return (
     <div>
-       <div className="pt-[100px]">
-        <div className="text-center">
-          <h2 className="text-7xl font-bold text-white dark:text-neutral-200 text-center">MY JOURNEY</h2>
-             <p className="text-neutral-600 dark:text-neutral-400">
+       <div className="pt-16 sm:pt-24">
+        <div className="text-center px-4">
+          <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white dark:text-neutral-200 text-center">MY JOURNEY</h2>
+             <p className="text-neutral-600 dark:text-neutral-400 text-sm sm:text-base">
               A journey of passion, purpose, and progress.
              </p></div></div>
       <Timeline data={timelineData} />

@@ -11,13 +11,16 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <section id = "Navbar"><Navbar /></section>
-    <section id = "Aboutme"><Aboutme /></section>
-     <section id = "Skills"><Skills /></section>
-     <section id = "Projects"><Projects /></section>
-     <section id = "Contentcreation"><Contentcreation /></section>
-     <section id = "Journey"><Journey /></section>
-     <section id = "Footer"><Footer /></section>
+    <section id="Navbar"><Navbar /></section>
+    {/* pt-16 offsets the fixed navbar height */}
+    <div className="pt-16">
+      <section id="Aboutme"><Aboutme /></section>
+      <section id="Skills"><Skills /></section>
+      <section id="Projects"><Projects /></section>
+      <section id="Contentcreation"><Contentcreation /></section>
+      <section id="Journey"><Journey /></section>
+      <section id="Footer"><Footer /></section>
+    </div>
     </>
   );
 }

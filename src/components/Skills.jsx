@@ -70,7 +70,7 @@ export default function ExpandableCardDemo() {
       { name: "Adobe Lightroom", logo: "light.png" },
       { name: "Instagram", logo: "insta.png" },
     ],
-    content: "Actively contributed to major college events like Tandav and Spectrum as the Designing Team Leader—created brochures, ID cards, event banners, sponsorship creatives, and T-shirt designs. Beyond college, I manage my Instagram page [@yaashoofx](https://www.instagram.com/yaashoofx), where I share my photography, videography, and cinematic edits to a growing audience."
+    content: "Actively contributed to major college events like Tandav and Spectrum as the Designing Team Leader—created brochures, ID cards, event banners, sponsorship creatives, and T-shirt designs. Beyond college, I manage my Instagram page [@yaashoofx](https://www.instagram.com/yaashoofx/), where I share my photography, videography, and cinematic edits to a growing audience."
   }
 ];
 
@@ -211,22 +211,22 @@ export default function ExpandableCardDemo() {
         ) : null}
       </AnimatePresence>
 
-      <div className="w-full mx-auto p-4 mt-[100px] border-b-2 border-[#313131] pb-[100px] ">
+      <div className="w-full mx-auto px-4 sm:px-8 mt-16 sm:mt-24 border-b-2 border-[#313131] pb-16 sm:pb-24">
         <div className="mb-8 text-center">
-          <h2 className="text-7xl font-bold text-white dark:text-neutral-200 mb-2 text-center">TECHNOLOGY STACK</h2>
-          <p className="text-neutral-600 dark:text-neutral-400">
+          <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white dark:text-neutral-200 mb-2 text-center">TECHNOLOGY STACK</h2>
+          <p className="text-neutral-600 dark:text-neutral-400 text-sm sm:text-base px-4">
             A growing toolkit of modern technologies and frameworks that I use to craft efficient, elegant, and scalable solutions.
           </p>
         </div>
 
-        {/* All 5 cards in one row, bigger */}
-        <div className="flex flex-row gap-6 overflow-x-auto pb-4 ml-[90px]">
+        {/* Responsive grid: 1 col mobile, 2 tablet, up to 5 wide desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 justify-items-center">
           {cards.map((card, index) => (
             <motion.div
               layoutId={`card-${card.title}-${id}`}
               key={`card-${card.title}-${id}`}
               onClick={() => setActive(card)}
-              className="min-w-[320px] max-w-[340px] h-[370px] p-6 flex flex-col bg-white dark:bg-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-700 rounded-xl cursor-pointer shadow-md hover:shadow-lg transition-all duration-200 border border-neutral-200 dark:border-neutral-700"
+              className="w-full max-w-[340px] h-[370px] p-6 flex flex-col bg-white dark:bg-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-700 rounded-xl cursor-pointer shadow-md hover:shadow-lg transition-all duration-200 border border-neutral-200 dark:border-neutral-700"
             >
               <motion.div layoutId={`image-${card.title}-${id}`} className="mb-4">
                 <img

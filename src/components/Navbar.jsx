@@ -1,5 +1,6 @@
 "use client"
-import {  Navbar,
+import {
+  Navbar,
   NavBody,
   NavItems,
   MobileNav,
@@ -7,7 +8,8 @@ import {  Navbar,
   NavbarButton,
   MobileNavHeader,
   MobileNavToggle,
-  MobileNavMenu, } from "./ui/resizable-navbar"
+  MobileNavMenu,
+} from "./ui/resizable-navbar"
 import { useState } from "react"
 import ModalExample from './Modal';
 
@@ -25,7 +27,7 @@ export default function NavbarDemo() {
       name: "Project",
       link: "#Projects",
     },
-     {
+    {
       name: "Journey",
       link: "#Journey",
     },
@@ -40,24 +42,25 @@ export default function NavbarDemo() {
   return (
     <div className="relative w-full">
       <Navbar>
-        {/* Desktop Navigation */}
-        <div className="flex">
+        {/* Desktop Navigation — only visible on lg+ */}
         <NavBody>
           <NavbarLogo />
           <NavItems items={navItems} />
-          <div className="items-center">
-            <NavbarButton variant="secondary">    <a
-                  href="/Yash-Naik-Resume.pdf"
-                  download
-                  className="items-center transition-colors"
-                > Resume </a></NavbarButton>
-            {/* <NavbarButton variant="primary">Contact me</NavbarButton> */}
+          <div className="flex items-center gap-2">
+            <NavbarButton variant="secondary">
+              <a
+                href="/Yash-Naik-Resume.pdf"
+                download
+                className="items-center transition-colors"
+              >
+                Resume
+              </a>
+            </NavbarButton>
+            <ModalExample />
           </div>
         </NavBody>
-          <ModalExample/>
-        </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile / Tablet Navigation */}
         <MobileNav>
           <MobileNavHeader>
             <NavbarLogo />
@@ -70,22 +73,29 @@ export default function NavbarDemo() {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300"
+                className="relative text-neutral-600 dark:text-neutral-300 w-full py-1"
               >
                 <span className="block">{item.name}</span>
               </a>
             ))}
-            <div className="flex w-full flex-col gap-4">
-              <NavbarButton onClick={() => setIsMobileMenuOpen(false)} variant="primary" className="w-full">
-                  <a
+            <div className="flex w-full flex-col gap-3 pt-2">
+              <NavbarButton
+                onClick={() => setIsMobileMenuOpen(false)}
+                variant="primary"
+                className="w-full text-center"
+              >
+                <a
                   href="/Yash-Naik-Resume.pdf"
                   download
-                  className="flex items-center gap-2 hover:text-blue-400 transition-colors"
-                > Resume </a>
+                  className="flex items-center justify-center gap-2 w-full"
+                >
+                  Resume
+                </a>
               </NavbarButton>
-              <NavbarButton onClick={() => setIsMobileMenuOpen(false)} variant="primary" className="w-full">
-                Contact Me
-              </NavbarButton>
+              {/* Contact Me modal trigger — inline for mobile */}
+              <div className="w-full [&>div]:w-full [&_button]:w-full" onClick={() => setIsMobileMenuOpen(false)}>
+                <ModalExample />
+              </div>
             </div>
           </MobileNavMenu>
         </MobileNav>

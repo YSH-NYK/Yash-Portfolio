@@ -12,7 +12,7 @@ export default function PortfolioFooter() {
   }
 
   return (
-    <footer className="relative overflow-hidden bg-[#313131] text-white mt-[120px]">
+    <footer className="relative overflow-hidden bg-[#313131] text-white mt-16 sm:mt-24 lg:mt-[120px]">
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -32,7 +32,7 @@ export default function PortfolioFooter() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-gray-400 mt-1" />
-                <span>Govind Nagar, Vathadev, Sarvan, Bicholim - Goa, India.</span>
+                <span>Bicholim - Goa, India.</span>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ export default function PortfolioFooter() {
                   Instagram
                 </a>
               </li>
-                <li>
+              <li>
                 <a
                   href="https://github.com/YSH-NYK"
                   target="_blank"
