@@ -250,7 +250,7 @@ export default function ResumeTimeline() {
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
           </div>  
-                    <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
+          <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Completed Deloitte Australia Data Analytics Job Simulation
             <Badge className="ml-2 bg-yellow-500 hover:bg-yellow-600">Achievement</Badge>
           </h3>
@@ -263,8 +263,22 @@ export default function ResumeTimeline() {
               alt="Spark-3 Hackathon"
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
-          </div>  
-                    <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
+          </div>
+           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
+            Joined as Software Engineer Intern at Anant Infomedia Pvt. Ltd.
+            <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
+          </h3>
+          <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
+            Worked with the team on the Saath7 project by Sanofi, a patient support program that empowered individuals with diabetes through counseling and education across 45 cities, supported by over 5,000 doctors. Responsibilities included developing and testing scripts and databases using PHP, MySQL, FileZilla, JavaScript, HTML, and Bootstrap.
+          </p>
+          <div className="mb-8">
+            <img
+              src="Anant.jpeg"
+              alt="Spark-3 Hackathon"
+              className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
+            />
+          </div> 
+          <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Completed BCGX GenAI Job Simulation
             <Badge className="ml-2 bg-yellow-500 hover:bg-yellow-600">Achievement</Badge>
           </h3>
@@ -277,42 +291,41 @@ export default function ResumeTimeline() {
               alt="Spark-3 Hackathon"
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
-          </div>        
+          </div>
+           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
+            Joined as Software Engineer Trainee at Revature.
+            <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
+          </h3>
+          <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
+Worked as a Software Engineer Trainee (Python API Developer with React) from October 2025 to December 2025, completing intensive training in Python, Flask, MySQL, SQLAlchemy, JWT, PyTest, Pydantic, React, and cloud-native technologies including AWS, Docker, Kubernetes, Terraform, and GitHub Actions. Developed RESTful APIs, implemented authentication mechanisms, and followed backend development best practices while working with technologies such as Python, Flask, SQLAlchemy, MySQL, JWT, PyTest, Pydantic, Docker, Kubernetes, Terraform, AWS (S3, EC2, RDS, ECR, EKS), Git, GitHub Actions, and React.
+          </p>
+          <div className="mb-8">
+            <img
+              src="revature.jpg"
+              alt="Revature"
+              className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
+            />
+          </div>         
         </div>
       ),
     },
       {
      title: "Currently",
       content: (
-        <div>
+        <div> 
            <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
-            Joined as Software Engineer Intern at Anant Infomedia Pvt. Ltd.
+            Joined as Software Engineer at Persistent System Limited.
             <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
           </h3>
           <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
-           Working with the team on the Saath7 project by Sanofi which is a patient support program that empowers individuals with diabetes through counseling and education across 45 cities, supported by over 5,000 doctors. My work involved developing and testing the scripts and Database for the same using PhP, MySQL, Filezilla, Javascript, Html and Bootstrap.
-          </p>
+Working as a Software Engineer since January 2026, developing Celery, Ansible, and Python based automation solutions for IBM Cloud VMware infrastructure and contributing to Python version upgrades across microservice-based cloud platforms. Utilizing technologies including Python, Flask, SQLAlchemy, MySQL, Docker, Kubernetes, Git, IBM Cloud VMware, Ansible, YAML, Celery, and IBM Atlas.</p>
           <div className="mb-8">
             <img
-              src="Anant.jpeg"
-              alt="Spark-3 Hackathon"
+              src="psl.jpg"
+              alt="Revature"
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
-          </div>  
-
-           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
-             Actively seeking entry-level opportunities in Data Science, Data Analytics, and AI/ML while continuously upskilling with the latest technologies, frameworks, and hands-on project experience.
-          </h3>
-          <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
-            Actively looking for full-time positions where I can apply data-driven problem-solving and AI/ML skills to real-world challenges.
-          </p>
-          <div className="mb-8">
-            {/* <img
-              src="data.png"
-              alt="Spark-3 Hackathon"
-              className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
-            /> */}
-          </div>  
+          </div>         
         </div>
       )
     }
