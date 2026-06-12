@@ -277,20 +277,6 @@ export default function ResumeTimeline() {
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
           </div>
-           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
-            Joined as Software Engineer Intern at Anant Infomedia Pvt. Ltd.
-            <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
-          </h3>
-          <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
-            Worked with the team on the Saath7 project by Sanofi, a patient support program that empowered individuals with diabetes through counseling and education across 45 cities, supported by over 5,000 doctors. Responsibilities included developing and testing scripts and databases using PHP, MySQL, FileZilla, JavaScript, HTML, and Bootstrap.
-          </p>
-          <div className="mb-8">
-            <img
-              src="Anant.jpeg"
-              alt="Spark-3 Hackathon"
-              className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
-            />
-          </div> 
           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Completed BCGX GenAI Job Simulation
             <Badge className="ml-2 bg-yellow-500 hover:bg-yellow-600">Achievement</Badge>
