@@ -262,6 +262,19 @@ export default function ResumeTimeline() {
               src="delloite.png"
               alt="Spark-3 Hackathon"
               className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
+            /> </div> 
+           <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
+            Joined as Software Engineer Intern at Anant Infomedia Pvt. Ltd.
+            <Badge className="ml-2 bg-purple-500 hover:bg-purple-600">Experience</Badge>
+          </h3>
+          <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-neutral-300">
+           Working with the team on the Saath7 project by Sanofi which is a patient support program that empowers individuals with diabetes through counseling and education across 45 cities, supported by over 5,000 doctors. My work involved developing and testing the scripts and Database for the same using PhP, MySQL, Filezilla, Javascript, Html and Bootstrap.
+          </p>
+          <div className="mb-8">
+            <img
+              src="Anant.jpeg"
+              alt="Spark-3 Hackathon"
+              className="w-full rounded-lg object-cover shadow-md h-48 md:h-64"
             />
           </div>
            <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
@@ -312,6 +325,7 @@ Worked as a Software Engineer Trainee (Python API Developer with React) from Oct
       {
      title: "Currently",
       content: (
+        <div> 
         <div> 
            <h3 className="text-xl font-bold text-neutral-800 mb-2 dark:text-neutral-100">
             Joined as Software Engineer at Persistent System Limited.

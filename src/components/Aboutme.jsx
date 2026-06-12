@@ -58,7 +58,7 @@ import { motion, AnimatePresence } from "motion/react"
 const Aboutme = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const words = ["CODE", "DATA", "DESIGN"]
+  const words = ["DEVELOP", "DATA", "DESIGN"]
 
   useEffect(() => {
     const interval = setInterval(() => {
